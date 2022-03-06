@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=egde">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido Tacosmos</title>
+</head>
+
+<body>
+    <h1>Aquí haces tu Pedido</h1>   
+
+    <form action="pedido.js">
+
+        <label for="Nombre">Nombre Cliente</label><br>
+        <input type="text" id="Nombre"  name="Nombre" placeholder="Nombre">
+        <br><br>
+        <label for="mesa">¿Cúal es tú mesa?</label><br>
+        <input type="number" name="mesa" id="mesa" placeholder="4">
+        <br><br>
+
+        <p>¿Para Comer aquí o para llevar?</p>
+        <input type="radio" id="aqui" name="aquiollevar" value="Aquí en el restaurante">
+        <label for="aqui">Aqui</label><br>
+        <input type="radio" name="aquiollevar" id="llevar" value="Para Llevar">
+        <label for="llevar">Llevar</label>
+
+        <p>¿Cúal es tú órden?</p>
+        <input type="checkbox" id="Mercurio" name="Mercurio" value="Mercurio">
+        <label for="Mercurio">Mercurio</label>
+        <input type="number" id="cantidadm" name="cantidadm" placeholder="Cantidad"><br>
+
+        <input type="checkbox" id="Venus" name="Venus" value="Venus">
+        <label for="Venus">Venus</label>
+        <input type="number" id="cantidadv" name="cantidadv" placeholder="Cantidad"><br>
+
+        <input type="checkbox" id="Tierra" name="Tierra" value="Tierra">
+        <label for="Tierra">Tierra</label>
+        <input type="number" id="cantidadt" name="cantidadt" placeholder="Cantidad"><br>
+
+        <input type="checkbox" id="Marte" name="Marte" value="Marte">
+        <label for="Marte">Marte</label>
+        <input type="number" id="cantidadmar" name="cantidadmar" placeholder="Cantidad"><br>
+
+        <input type="checkbox" id="Jupiter" name="Jupiter" value="Jupiter">
+        <label for="Jupiter">Jupiter</label>
+        <input type="number" id="cantidadj" name="cantidadj" placeholder="Cantidad"><br>
+
+        <input type="checkbox" id="Saturno" name="Saturno" value="Saturno">
+        <label for="Saturno">Saturno</label>
+        <input type="number" id="cantidads" name="cantidads" placeholder="Cantidad"><br>
+
+        <input type="checkbox" id="Urano" name="Urano" value="Urano">
+        <label for="Urano">Urano</label>
+        <input type="number" id="cantidadu" name="cantidadu" placeholder="Cantidad"><br>
+
+        <input type="checkbox" id="Neptuno" name="Neptuno" value="Neptuno">
+        <label for="Neptuno">Neptuno</label>
+        <input type="number" id="cantidadn" name="cantidadn" placeholder="Cantidad"><br>
+
+        <input type="checkbox" id="Pluton" name="Pluton" value="Pluton">
+        <label for="Pluton">Pluton</label>
+        <input type="number" id="cantidadp" name="cantidadp" placeholder="Cantidad"><br>
+
+        <p>Bebidas</p>
+        <select name="Elige tu Bebida" id="bebida">
+                <option value="-">-</option>
+                <option value="Cola-Cola">Cola-Cola</option>
+                <option value="Fanta">Fanta</option>
+                <option value="Manzanita">Manzanita</option>
+                <option value="Sprite">Sprite</option>
+                <option value="Sangría">Sangría</option>
+                <option value="Horchata">Horchata</option>
+                <option value="Jamaica">Jamaica</option>
+                <option value="Tamarindo">Tamarindo</option>
+                <option value="Corona">Corona</option>
+                <option value="Victoria">Victoria</option>
+                <option value="Modelo">Modelo</option>
+        </select>
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+
+
+        
+
+    </form>
+
+</body>
+
+</html>
