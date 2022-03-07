@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michi Pedidos</title>
+
+    <style>
+    
+        body{
+            background-color: rgba(20, 218, 218, 0.938);
+             }
+             header {
+            padding: 30px;
+            text-align: center;
+                    }
+
+             nav {
+            float: center;
+                    }
+
+         </style>
+</head>
+
+<body>
+   <header>
+    <img src="./img/Logo Michi Pasteleria.png" alt="Michi Pastelería" width="300px" height="300px">
+    <h1>Aquí puedes personalizar tu Pedido</h1>
+</header>
+<div style="text-align: center;">
+<a href="./michi cliente.html" target="blank">Inicio</a>
+<a href="./Diseños.html" target="blank">Diseño</a>
+<a href="./Pastelero.html" target="blank">Pastelero</a>
+</div>
+<br><br><br><br>
+<form action="pedido.js">
+<br><br>
+    <label for="Nombre">Nombre Cliente</label><br>
+    <input type="text" id="Nombre"  name="Nombre">
+    <br><br>
+    <label for="tel">Telefono</label><br>
+    <input type="tel" name="tel" id="tel" maxlength="10">
+    <br><br>
+    <label for="email">Correo electrónico</label><br>
+    <input type="email" name="email" id="email">
+<br>
+    <br><p>Adorno de tu Pastel</p>
+    <input type="checkbox" id="Básico" name="Básico" value="Básico">
+    <label for="Básico">Básico</label>
+    <input type="number" id="cantidadm" name="cantidadm" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Boda" name="Boda" value="Boda">
+    <label for="Boda">Boda</label>
+    <input type="number" id="cantidadv" name="cantidadv" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Dark" name="Dark" value="Dark">
+    <label for="Dark">Dark</label>
+    <input type="number" id="cantidadt" name="cantidadt" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Graduación" name="Graduación" value="Graduación">
+    <label for="Graduación">Graduación</label>
+    <input type="number" id="cantidadmar" name="cantidadmar" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Menta" name="Menta" value="Menta">
+    <label for="Menta">Menta</label>
+    <input type="number" id="cantidadj" name="cantidadj" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Sombrero" name="Sombrero" value="Sombrero">
+    <label for="Sombrero">Sombrero</label>
+    <input type="number" id="cantidads" name="cantidads" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Torre" name="Torre" value="Torre">
+    <label for="Torre">Torre</label>
+    <input type="number" id="cantidadu" name="cantidadu" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="TresPisos" name="TresPisos" value="TresPisos">
+    <label for="TresPisos">Tres Pisos</label>
+    <input type="number" id="cantidadn" name="cantidadn" placeholder="Cantidad"><br>
+
+    <input type="checkbox" id="Xpiral" name="Xpiral" value="Xpiral">
+    <label for="Xpiral">Xpiral</label>
+    <input type="number" id="cantidadp" name="cantidadp" placeholder="Cantidad"><br>
+
+    <p>Sabor de tu Pastel</p>
+    <select name="Elige tu Bebida" id="bebida">
+            <option value="-">-</option>
+            <option value="Cereza">Cereza</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="FrutosRojos">Frutos Rojos</option>
+            <option value="Lunetas">Lunetas</option>
+            <option value="Naranja">Naranja</option>
+            <option value="Vainilla">Vainilla</option>
+
+    </select>
+    <br><br>
+    <input type="reset">
+    <input type="submit">
+
+
+    
+
+</form>
+
+
+
+
+
+</body>
+
+</html>
